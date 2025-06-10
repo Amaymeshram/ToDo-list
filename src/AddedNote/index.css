@@ -1,0 +1,37 @@
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffd4d4;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.673);
+}
+
+.cont {
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  color: black;
+}
+p {
+  font-size: 25px;
+  color: black;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 10px;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,46 @@
+form {
+    background-color: #fabbaf;  /* Light gray background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 25px auto ;
+   
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid red;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    min-height: 50px;
+}
+
+input:focus, textarea:focus {
+    border-color: #FF6347; 
+    outline: none;
+}
+
+
+textarea {
+    height: 80px;
+}
+
+.add{
+    background-color: rgb(23, 134, 23);
+    width:  70px;
+    border: none;
+}
+
+.add:hover{
+    background-color: rgb(11, 96, 11);
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+
