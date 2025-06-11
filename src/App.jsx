@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./header";
 import Notebox from "./note box";
 import Note from "./AddedNote";
-import "./app.css"
+import "./App.css"
 
 const App = ()=>{
  
