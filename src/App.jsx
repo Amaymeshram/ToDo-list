@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./header";
 import Notebox from "./note box";
 import Note from "./AddedNote";
+import "./app.css"
 
 const App = ()=>{
  
@@ -38,8 +39,9 @@ return(
        </div>
          
          <div>
+          <br />
            <center>
-  <button onClick={save} className="btn btn-success">Save</button>
+  <button onClick={save} className="btn btn-success px-5  save">Save</button>
 </center>
        {   notes.map((noteItem,index) =>   {
               return <Note
