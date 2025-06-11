@@ -37,7 +37,7 @@ const submitTodo = (event)=>{
 }
 
     return(
-        <div>
+        <div className="note-cont">
             <form >
                 
                 <input name="title" onChange={makeChange} type="text"  value={note.title} placeholder="Title ToDo" />

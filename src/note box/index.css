@@ -1,3 +1,8 @@
+
+
+
+
+
 form {
     background-color: #fabbaf;  /* Light gray background */
     padding: 15px;
@@ -39,8 +44,11 @@ textarea {
     background-color: rgb(11, 96, 11);
     transform: scale(1.1,1.1);
 }
-
-
+@media screen and (max-width: 767px) {
+    form{
+        width: 300px;
+    }
+}
 
 
 

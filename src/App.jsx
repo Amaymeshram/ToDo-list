@@ -5,7 +5,10 @@ import Note from "./AddedNote";
 
 const App = ()=>{
  
-  const [notes , setNotes] = useState([])
+  const [notes, setNotes] = useState(() => {
+  const savedNotes = localStorage.getItem("note");
+  return savedNotes ? JSON.parse(savedNotes) : [];
+});
 
 
 
@@ -20,7 +23,10 @@ const App = ()=>{
     
   }
   
-  
+ const save = () => {
+  localStorage.setItem("note", JSON.stringify(notes));
+  alert("Notes saved successfully!"); 
+}; 
   
 return(
   <div className="P-cont">
@@ -32,7 +38,9 @@ return(
        </div>
          
          <div>
-           
+           <center>
+  <button onClick={save} className="btn btn-success">Save</button>
+</center>
        {   notes.map((noteItem,index) =>   {
               return <Note
               key= {index} 
