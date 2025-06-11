@@ -1,10 +1,11 @@
 form {
-    background-color: #fabbaf;  /* Light gray background */
+    background-color: #fea694;  /* Light gray background */
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     margin: 25px auto ;
+     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.673);
    
 }
 
